@@ -507,7 +507,7 @@ body.offcanvas {
       margin-bottom: 4em; } }
 
 .bac-about-us{
-  padding: 8em 10vw; }
+  padding: 5em 10vw; }
 
 
 .about-img-2,
@@ -553,17 +553,77 @@ body.offcanvas {
     .bac-heading {
       margin-bottom: 3em; } }
 
+.somos-r:after {
+  left: 0.1em;
+  margin-right: -50%;
+}
+.somos-r:after {
+  background-color: #fdb824;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: super;
+  width: 50%;
+}
+
 h1.bac-heading-us{
   font-size: 6vw !important;
-  font-family: "futura-pt", "Overpass", sans-serif !important;
+  font-family: "brown-thin", "Overpass", sans-serif !important;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+  color: #fdb824;
+  margin-bottom: 0.7em;
   line-height: 1.1; }
 h2.bac-heading-us{
+  font-family: "brown-thin", "Overpass", sans-serif !important;
   text-align: center;
   text-transform: uppercase;
-  font-size: 4vw;}
+  color: #fdb824;
+  font-size: 4vw;
+  padding-bottom: 30px;
+  overflow: hidden;
+  text-align: center; }
 
+  h2.bac-heading-us:before,
+  h2.bac-heading-us:after {
+    background-color: #fdb824;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: super;
+    width: 50%;
+  }
+  h2.bac-heading-us:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  h2.bac-heading-us:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .bac-about-us .about-desc ul{
+    border-left: 2px #fdb824 solid; }
+  .bac-about-us .about-desc li{
+    list-style: none;
+    text-align: justify;
+    font-family: "futura-lt", "futura-pt", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 15px;
+  }
+  .bac-about-us .about-desc li:before{
+    background-color: #fdb824;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: super;
+    width: 20px;
+    left: -20px;
+    margin-left: -20px;
+    margin-top: 15px;     }
 
 .heading-meta {
   margin-bottom: 15px;
@@ -584,7 +644,9 @@ h2.bac-heading-us{
 
 .about-desc p {
   text-align: justify;
-  font-size: 1.3em; }
+  font-family: "futura-pt", "overpass", sans-serif;
+  line-height: 1.9;
+  font-size: 1.8em; }
 .about-desc h3 {
   font-size: 18px;
   text-transform: uppercase;
@@ -901,8 +963,7 @@ h2.bac-heading-us{
     .project .desc .con {
       padding: 30px;
       display: block;
-      position: relative;
-      height: 300px; }
+      position: relative;}
       .project .desc .con .icon {
         position: absolute;
         bottom: 20px;
@@ -1627,15 +1688,36 @@ li.css a {
   color: #5bc0de; }
 
 .linked{
-  padding: 5em;
+  padding: 0em;
   margin: 0 !important; }
 .linked .project{
-  max-height: 150px;
-  border-radius: 100%;
-  border: 2px #fdd854 solid; }
+  min-width: 10vw;
+  min-height: 10vw;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  border: 4px #fc5 solid; }
 .linked .project .desc{
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  border-radius: 100%; }
+  border-radius: 50%; }
+.linked .project .desc .con{
+  text-align: center;
+  top: -17px; }
+.linked .project .desc .con a i{
+  color: #ddd;
+  border: 2px #ddd solid;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 1.8vw; }
+.linked .project .desc .con span{
+  margin-top: 0.5em;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 1.2em;}
+.linked h4{
+  font-size: 1.3vw;
+  text-align: center;
+}
