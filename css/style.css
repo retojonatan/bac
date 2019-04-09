@@ -3,10 +3,6 @@
   font-family: "futura-lt";
   src: url("../fonts/fuentes/FuturaLT-Book.ttf") format("truetype"); }
 @font-face {
-  font-family: "futura-pt";
-  src: url("../fonts/fuentes/FuturaPTBook.ttf") format("truetype");
-  src: url("../fonts/fuentes/FuturaPTBook.otf") format("opentype"); }
-@font-face {
   font-family: "brown-thin";
   src: url("../fonts/fuentes/brown-thin-webfont.ttf") format("truetype");  }
 @font-face {
@@ -40,7 +36,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "futura-lt", "futura-pt", "overpass", sans-serif;
+  font-family: "futura-lt", "Trebuchet MS", "overpass", sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
 
@@ -54,7 +50,7 @@ figure {
     margin: 20px auto 0px auto;
     color: #b3b3b3;
     font-style: italic;
-    font-family: "futura-pt", "overpass", sans-serif; }
+    font-family: "Trebuchet MS", "overpass", sans-serif; }
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
@@ -145,7 +141,7 @@ figure {
         text-decoration: none;
         position: relative;
         padding: 10px 0;
-        font-family: "futura-pt", "overpass", sans-serif !important;
+        font-family: "Trebuchet MS", "overpass", sans-serif !important;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s; }
@@ -205,11 +201,11 @@ figure {
     width: 100%; }
 
   #get-in-touch p {
-    font-family: "futura-pt", 'Overpass', Helvetica;
+    font-family: "Trebuchet MS", 'Overpass', Helvetica;
     font-size: 1.3em;
     line-height: 0.7; }
   #get-in-touch .copy, #get-in-touch  a{
-    font-family: "futura-pt", 'Overpass', Helvetica;
+    font-family: "Trebuchet MS", 'Overpass', Helvetica;
     font-size: 1.2em;
     padding-bottom: 1em;
     line-height: 1.5; }
@@ -394,7 +390,7 @@ figure {
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 300;
-          font-family: "futura-pt","overpass", sans-serif; }
+          font-family: "Trebuchet MS","overpass", sans-serif; }
           #bac-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: rgba(0, 0, 0, 0.8); }
         #bac-hero .flexslider .slider-text > .slider-text-inner .heading-section {
@@ -419,7 +415,7 @@ figure {
           #bac-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
             border: 1px solid #aaa;
-            font-family: "futura-pt", "Overpass", serif;
+            font-family: "Trebuchet MS", "Overpass", serif;
             background: #fff !important; }
             /* bg button */
             #bac-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
@@ -534,7 +530,7 @@ body.offcanvas {
 
 .bac-heading {
   font-size: 20px;
-  font-family: "futura-pt", "Overpass", sans-serif !important;
+  font-family: "Trebuchet MS", "Overpass", sans-serif !important;
   margin-bottom: 3em;
   font-weight: 500;
   text-transform: uppercase;
@@ -612,7 +608,7 @@ h2.bac-heading-us{
   .bac-about-us .about-desc li{
     list-style: none;
     text-align: justify;
-    font-family: "futura-lt", "overpass", sans-serif;
+    font-family: "futura-lt", "Trebuchet MS", "overpass", sans-serif;
     font-size: 24px;
     font-weight: 900;
     padding-top: 15px;
@@ -649,7 +645,7 @@ h2.bac-heading-us{
 
 .about-desc p {
   text-align: justify;
-  font-family: "futura-pt", "overpass", sans-serif;
+  font-family: "Trebuchet MS", "overpass", sans-serif;
   line-height: 1.9;
   font-size: 1.8em; }
 .about-desc h3 {
@@ -737,7 +733,7 @@ h2.bac-heading-us{
   border: none; }
 
 .panel-heading a:after {
-  font-family: "futura-pt", "overpass" !important;
+  font-family: "Trebuchet MS", "overpass" !important;
   content: "\ea0e";
   position: absolute;
   right: 20px;
@@ -820,7 +816,7 @@ h2.bac-heading-us{
           font-size: 40px; } }
   .bac-feature .bac-text {
     padding-left: 120px;
-    font-family: "futura-lt", "overpass", serif;
+    font-family: "futura-lt", "Trebuchet MS", "overpass", serif;
     width: 100%; }
     .bac-feature .bac-text h2, .bac-feature .bac-text h3 {
       margin: 0;
@@ -834,7 +830,7 @@ h2.bac-heading-us{
       text-transform: uppercase; }
     .bac-feature .bac-text p {
       font-size: 1.2em;
-      font-family: "futura-pt", 'Overpass' !important;
+      font-family: "Trebuchet MS", 'Overpass' !important;
       font-weight: 600;
       color: rgba(0, 0, 0, 0.75);
     }
@@ -992,7 +988,7 @@ h2.bac-heading-us{
     .project .desc h3 {
       font-size: 22px;
       font-weight: 500;
-      font-family: "futura-pt", "overpass", monospace !important;
+      font-family: "Trebuchet MS", "overpass", monospace !important;
       text-transform: uppercase;
       text-decoration: underline;
       letter-spacing: 1px;
@@ -1010,7 +1006,7 @@ h2.bac-heading-us{
     .project .desc span {
       display: block;
       color: #ccc;
-      font-family: "futura-pt", "overpass", Helvetica;
+      font-family: "Trebuchet MS", "overpass", Helvetica;
       font-size: 17px;
       text-align: justify;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1111,7 +1107,7 @@ h2.bac-heading-us{
     font-size: 40px;
     display: block;
     color: white;
-    font-family: "futura-pt", "overpass", serif !important;
+    font-family: "Trebuchet MS", "overpass", serif !important;
     width: 100%;
     font-weight: 700;
     margin-bottom: .3em; }
@@ -1164,7 +1160,7 @@ h2.bac-heading-us{
     font-size: 40px;
     display: block;
     color: white;
-    font-family: "futura-pt", "overpass", sans-serif !important;
+    font-family: "Trebuchet MS", "overpass", sans-serif !important;
     width: 100%;
     font-weight: 700;
     margin-bottom: .3em; }
@@ -1278,7 +1274,7 @@ h2.bac-heading-us{
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "futura-pt", "Overpass", sans-serif;
+  font-family: "Trebuchet MS", "Overpass", sans-serif;
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1305,7 +1301,7 @@ h2.bac-heading-us{
 .btn-primary {
   background: #006587;
   color: #fff;
-  font-family: "futura-pt", 'overpass';
+  font-family: "Trebuchet MS", 'overpass';
   font-weight: bold;
   font-size: 1em;
   border: 2px solid #006587; }
@@ -1570,7 +1566,7 @@ h2.bac-heading-us{
   padding: 20px 3vw !important; }
   #quienes p{
     font-size: 1.4em;
-    font-family: "futura-pt", "overpass", Helvetica !important; }
+    font-family: "Trebuchet MS", "overpass", Helvetica !important; }
   @media screen and (max-width: 1300px){
     #quienes{
       padding: 20px 1vw !important;
@@ -1632,7 +1628,7 @@ h2.bac-heading{
 .detalle-obra{
   color: #000;
   text-align: justify;
-  font-family: "futura-pt", 'Overpass' !important;
+  font-family: "Trebuchet MS", 'Overpass' !important;
   letter-spacing: 1px;
   font-size: 1.2em;
   font-weight: 500; }
@@ -1724,11 +1720,11 @@ li.css a {
   padding: 8px;
   font-size: 1.8vw; }
 .linked .project .desc .con span{
-  margin-top: 0.5em;
+  margin-top: 20px;
   text-align: center;
   line-height: 1.2;
   font-size: 1.2em;}
 .linked h4{
-  font-size: 1.3vw;
+  font-size: 1.7em;
   text-align: center;
 }
