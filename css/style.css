@@ -609,7 +609,7 @@ h2.bac-heading-us{
     list-style: none;
     text-align: justify;
     font-family: "futura-lt", "Trebuchet MS", "overpass", sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 900;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -646,8 +646,8 @@ h2.bac-heading-us{
 .about-desc p {
   text-align: justify;
   font-family: "Trebuchet MS", "overpass", sans-serif;
-  line-height: 1.9;
-  font-size: 1.8em; }
+  line-height: 1.5;
+  font-size: 1.5em; }
 .about-desc h3 {
   font-size: 18px;
   text-transform: uppercase;
