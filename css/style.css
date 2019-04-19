@@ -107,14 +107,28 @@ figure {
     font-size: 22px;
     text-transform: uppercase;
     margin-top: 5em;
+    margin-bottom: 2em;
     display: block;
     width: 100%; }
   #bac-aside #bac-logo img{
-    min-width: 90px !important;
-    width: 9vw !important; }
-  @media screen and (max-width: 768px) {
+    min-width: 130px !important;
+    width: 75% !important; }
+  #bac-aside .comunicate .telcom{
+    letter-spacing:1px;
+    color:white;
+    width:75%;
+    min-width: 145px;
+    padding: 8px !important; }
+  #bac-aside .comunicate .mailcom{
+    letter-spacing:1px;
+    margin-top: 10px;
+    color:white;
+    width:75%;
+    min-width: 145px;
+    padding: 8px !important; }
+  /* @media screen and (max-width: 768px) {
     #bac-aside #bac-logo {
-      margin-bottom: 1em; } }
+      margin-bottom: 7em; } } */
   #bac-aside #bac-logo a {
     display: block;
     text-align: left;
@@ -453,20 +467,6 @@ body.offcanvas {
     .bac-narrow-content {
       padding: 2em 1em; } }
 
-.sideToSide{
-  margin: 0 !important;
-  padding: 0 !important;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%); }
-  .sideToSide:hover{
-    transition: .3s ease-in-out !important;
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%); }
-  @media screen and (max-width: 768px) {
-    .sideToSide{
-      height: 50vh;
-    }
-  }
 .bac-obra,
 .bac-work{
   /* padding-top: 2.5em !important; */
@@ -862,25 +862,12 @@ h2.bac-heading-us{
   padding: 0; }
 .bac-projects a img{
   height: 100vh; }
-.projects-entry {
-  width: 100%;
-  height: 100vh;
-  float: left;
-  background: #fff;
-  margin-bottom: 0em; }
-  @media screen and (max-width: 1200px) {
-    .projects-entry{
-      height: 50vh; } }
-  @media screen and (max-width: 900px) {
-    .projects-entry img{
-      object-fit: scale-down; }
-    .projects-entry{
-      height: 50vh ; } }
   .projects-entry .projects-img {
     width: 100%;
     float: left;
     overflow: hidden;
     position: relative;
+    display: block;
     z-index: 1;
     margin-bottom: 0; }
     .projects-entry .projects-img img {
@@ -1688,12 +1675,14 @@ li.css a {
   font-weight: bolder;
   letter-spacing: 0.15em;
   color: #5bc0de; }
-  svg {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-  }
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6vw; }
+/* @media screen and (max-width: 800px){
+  svg{
+    height: 50px; } } */
 .linked{
   padding: 0em;
   margin: 0 !important; }
@@ -1727,4 +1716,29 @@ li.css a {
 .linked h4{
   font-size: 1.7em;
   text-align: center;
+}
+.projects-entry a{
+  max-height: 30vh !important;
+  transform: skewx(-10deg);
+  margin-left: -150px !important;
+}
+.projects-entry a img{
+  height: auto;
+  width: 100%;
+  transform: skewX(10deg) !important;
+  left: 50px;
+}
+
+.sideToSide{
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-top: 3.33vh !important;
+  }
+.projects-entry .img-responsive{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); }
+  .projects-entry .img-responsive:hover{
+    transition: .3s ease-in-out !important;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%); }
 }
