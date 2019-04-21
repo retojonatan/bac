@@ -893,6 +893,14 @@ h2.bac-heading-us{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media screen and (max-width: 900px){
+      .projects-entry .centered {
+        left: 60vw; }
+    @media screen and (max-width: 770px){
+      .projects-entry .centered {
+        font-size: 1.7em;
+        left: 38%; } }
+        /* TODO: falta ver para 550px de width  */
 .sideToSide{
   margin: 0 !important;
   padding: 0 !important; }
