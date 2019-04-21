@@ -12,6 +12,8 @@
   font-weight: normal;
   font-style: normal; }
 
+
+
 body {
   font-weight: 400;
   font-size: 14px;
@@ -859,10 +861,19 @@ h2.bac-heading-us{
     background-color: #447799; }
 .projects-entry a{
   border-radius: 30px;
-  background-color: black;
+  /* background-image: url("/images/cat 1.jpg"); */
+  /* TODO: revisar esto para que quede bien. */
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  background-color: #000;
+  height: 33vh;
   max-height: 33vh !important;
   transform: skewx(-10deg);
   margin-left: -5vw !important; }
+  .projects-entry a:hover{
+    transition: .3s ease-in-out !important;
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%); }
 .first-fix a{
   max-height: 34vh !important; }
 .projects-entry a img{
@@ -871,24 +882,30 @@ h2.bac-heading-us{
   width: 100%;
   transform: skewX(10deg) !important;
   left: 40px; }
+  .projects-entry .centered {
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 2em;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #000,
+    -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+.sideToSide{
+  margin: 0 !important;
+  padding: 0 !important; }
+
 @media screen and (max-width: 900px){
   .bac-projects .bac-narrow-content{
     padding: 0 !important; }
   .projects-entry a{
     left: -120px;
-    width: 200vw !important;}
+    width: 200vw !important; }
   .sideToSide{
-    padding-top: 0 !important; } }
-.sideToSide{
-  margin: 0 !important;
-  padding: 0 !important; }
-.projects-entry .img-responsive{
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%); }
-  .projects-entry .img-responsive:hover{
-    transition: .3s ease-in-out !important;
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);}}
+    padding-top: 0 !important;}} }
+
 .bac-projects a img{
   height: 100vh; }
   .projects-entry .projects-img {
@@ -1748,4 +1765,7 @@ svg {
 .linked h4{
   font-size: 1.5vw;
   text-align: center;
+}
+.asd{
+  background-image: url(images/cat 1.jpg);
 }
