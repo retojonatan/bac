@@ -109,18 +109,23 @@ figure {
     font-size: 22px;
     text-transform: uppercase;
     margin-top: 5em;
-    margin-bottom: 2em;
+    margin-bottom: 12em;
     display: block;
     width: 100%; }
   #bac-aside #bac-logo img{
     min-width: 130px !important;
     width: 75% !important; }
+  #bac-aside .comunicate{
+    margin-bottom: 25px; }
   #bac-aside .comunicate .telcom{
     letter-spacing:1px;
     color:white;
     width:75%;
     min-width: 145px;
     padding: 8px !important; }
+    #bac-aside .comunicate .telcom:hover,
+    #bac-aside .comunicate .mailcom:hover{
+      background-color: #0386B2 !important; }
   #bac-aside .comunicate .mailcom{
     letter-spacing:1px;
     margin-top: 10px;
@@ -245,7 +250,7 @@ figure {
         list-style: none; }
       #get-in-touch .bac-footer ul li a{
         letter-spacing: 15px; }
-      #bac-aside .bac-footer {
+      #bac-aside .bac-footer ul {
         display: none; } }
     #bac-aside .bac-footer span {
       display: block; }
@@ -504,11 +509,15 @@ body.offcanvas {
 
 .bac-about-us{
   padding: 3em 10vw; }
+  @media screen and (max-width: 900px) {
+    .bac-about-us{
+      padding: 3em 5vw; } }
 
 .about-img-2,
 .services-img {
-  height: 75vh;
-  max-height: 700px;
+  height: 74vh;
+  margin-top: -30px;
+  max-height: 800px;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -549,10 +558,15 @@ body.offcanvas {
     .bac-heading {
       margin-bottom: 3em; } }
 
-.somos-r:after {
+/* .somos-r:after {
   left: 0.1em;
   margin-right: -50%;
 }
+.somos-l:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.somos-l:before,
 .somos-r:after {
   background-color: #fdb824;
   content: "";
@@ -560,23 +574,45 @@ body.offcanvas {
   height: 2px;
   position: relative;
   vertical-align: super;
+  width: 28%;
+} */
+h1.bac-heading-us:before,
+h1.bac-heading-us:after {
+  background-color: orange;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: super;
   width: 50%;
+}
+h1.bac-heading-us:before {
+  right: 0.1em;
+  margin-left: -50%;
+}
+h1.bac-heading-us:after {
+  left: 0.1em;
+  margin-right: -50%;
 }
 
 h1.bac-heading-us{
-  font-size: 6vw !important;
+  font-size: 9em !important;
   font-family: "brown-thin", "Overpass", sans-serif !important;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: orange;
+  text-align: center;
   margin-bottom: 0.7em;
   line-height: 1.1; }
+  @media screen and (max-width: 768px) {
+    h1.bac-heading-us{
+      font-size: 5em !important; } }
 h2.bac-heading-us{
   font-family: "brown-thin", "Overpass", sans-serif !important;
   text-align: center;
   text-transform: uppercase;
   color: orange;
-  font-size: 4vw;
+  font-size: 4.7em;
   padding-bottom: 30px;
   overflow: hidden;
   text-align: center; }
@@ -606,11 +642,16 @@ h2.bac-heading-us{
     list-style: none;
     text-align: justify;
     font-family: "futura-lt", "Trebuchet MS", "overpass", sans-serif;
-    font-size: 22px;
+    font-size: 1.6em;
     font-weight: 900;
     padding-top: 15px;
-    padding-bottom: 10px;
-  }
+    padding-bottom: 10px; }
+  @media screen and (max-width: 800px){
+    .bac-about-us .about-desc li{
+      padding-top: 10px;
+      font-weight: 600;
+      padding-bottom: 5px;
+      font-size: 1.3em;} }
   .bac-about-us .about-desc li:before{
     background-color: orange;
     content: "";
@@ -641,10 +682,10 @@ h2.bac-heading-us{
     display: none; } }
 
 .about-desc p {
-  text-align: justify;
+  text-align: center;
   font-family: "Trebuchet MS", "overpass", sans-serif;
   line-height: 1.5;
-  font-size: 1.5em; }
+  font-size: 1.4em; }
 .about-desc h3 {
   font-size: 18px;
   text-transform: uppercase;
@@ -1740,6 +1781,7 @@ svg {
 .linked{
   padding: 0em;
   margin: 0 !important; }
+
 .linked .project{
   min-width: 150px;
   min-height: 150px;
@@ -1748,8 +1790,10 @@ svg {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
+  position: relative;
   border-radius: 50%;
-  border: 3px #fc5 solid; }
+  border: 3px orange solid; }
+
 .linked .project .desc{
   top: 0;
   bottom: 0;
@@ -1769,11 +1813,11 @@ svg {
   margin-top: 20px;
   text-align: center;
   line-height: 1.2;
-  font-size: 1vw;}
+  font-size: 1.1em;}
 .linked h4{
-  font-size: 1.5vw;
-  text-align: center;
-}
+  font-size: 1.6em;
+  font-weight: 900;
+  font-family: 'brown-thin';
+  text-align: center; }
 .asd{
-  background-image: url(images/cat 1.jpg);
-}
+  background-image: url(images/cat 1.jpg); }
