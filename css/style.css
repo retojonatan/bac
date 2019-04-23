@@ -78,7 +78,7 @@ figure {
   padding-bottom: 40px;
   padding-left: 1em;
   padding-right: 0.5em;
-  width: 16%;
+  width: 13%;
   position: fixed;
   bottom: 0;
   top: 0;
@@ -95,12 +95,12 @@ figure {
       width: 20%; } }
   @media screen and (max-width: 768px) {
     #bac-aside {
-      width: 270px;
-      -moz-transform: translateX(-270px);
-      -webkit-transform: translateX(-270px);
-      -ms-transform: translateX(-270px);
-      -o-transform: translateX(-270px);
-      transform: translateX(-270px);
+      width: 220px;
+      -moz-transform: translateX(-220px);
+      -webkit-transform: translateX(-220px);
+      -ms-transform: translateX(-220px);
+      -o-transform: translateX(-220px);
+      transform: translateX(-220px);
       padding-top: 4em; } }
   #bac-aside #bac-logo {
     text-align: left;
@@ -111,11 +111,18 @@ figure {
     margin-bottom: 12em;
     display: block;
     width: 100%; }
+    @media screen and (max-width: 500px) {
+    #bac-aside #bac-logo {
+      margin-top: 2.5em;
+      margin-bottom: 2em; }
+    #bac-aside .comunicate{
+      margin-bottom: 10px !important; } }
+
   #bac-aside #bac-logo img{
     min-width: 130px !important;
     width: 65% !important; }
   #bac-aside .comunicate{
-    margin-bottom: 25px; }
+    margin-bottom: 20px; }
   #bac-aside .comunicate .telcom{
     letter-spacing:0.5px;
     font-family: "brown-thin";
@@ -218,6 +225,9 @@ figure {
     color: rgba(255, 255, 255, 0.3);
     padding: 0;
     width: 100%; }
+  @media screen and (max-width: 500px) {
+    #bac-aside .bac-footer{
+      bottom: 6px; }}
 
   #get-in-touch p {
     font-family: "Trebuchet MS", 'Overpass', Helvetica;
@@ -273,7 +283,7 @@ figure {
             color: #fdb824; }
 
 #bac-main {
-  width: 84%;
+  width: 87%;
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -450,17 +460,17 @@ body.offcanvas {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    width: 270px;
+    width: 220px;
     background: #2C2C2C;
     z-index: 999;
     position: fixed; }
   body.offcanvas #bac-main, body.offcanvas .bac-nav-toggle {
     top: 0;
-    -moz-transform: translateX(270px);
-    -webkit-transform: translateX(270px);
-    -ms-transform: translateX(270px);
-    -o-transform: translateX(270px);
-    transform: translateX(270px); }
+    -moz-transform: translateX(220px);
+    -webkit-transform: translateX(220px);
+    -ms-transform: translateX(220px);
+    -o-transform: translateX(220px);
+    transform: translateX(220px); }
 
 .bac-narrow-content {
   padding: 0 1em; }
@@ -500,7 +510,7 @@ body.offcanvas {
       padding-top: 5em;
       padding-bottom: 8em; }
     #bac-hero{
-      margin-bottom: 4em; } }
+      margin-bottom: 1em; } }
 
 .bac-about-us{
   padding: 3em 10vw; }
@@ -660,8 +670,8 @@ h2.bac-heading-us{
   background-repeat: no-repeat; }
   .bac-about .about-img {
     height: 600px;
-    margin-top: 100px; }
-  @media screen and (max-width: 1000px){
+    margin-top: 110px; }
+  @media screen and (max-width: 990px){
     .bac-about .about-img {
       height: 400px;
       background-position: top;
@@ -1160,12 +1170,24 @@ h2.bac-heading-us{
   position: relative;
   clear: both;
   margin-bottom: 5em; }
+  @media screen and (max-width: 768px){
+    #bac-parallax {
+      margin-bottom: 1em; } }
 
 .bac-parallax {
   padding: 9em 0;
-  background-size: cover;
+  background-size: cover !important;
   background-attachment: fixed;
   background-position: center center; }
+
+  @media screen and (max-width: 768px){
+  .bac-parallax1 {
+    background-size: 200% 100% !important;
+    background-repeat: no-repeat;
+  }
+  .bac-parallax {
+  background-size: auto;
+  background-repeat: no-repeat;}}
   .bac-parallax .overlay {
     z-index: 0;
     position: absolute;
@@ -1270,6 +1292,12 @@ h2.bac-heading-us{
 #get-in-touch {
   color: #ddd;
   padding: 0; }
+  @media screen and (max-width: 1045px) {
+    #contactate{
+      width: 100% !important;
+      padding: 0; }
+    #contact-img{
+      display: none; } }
 
 .bac-social {
   padding: 0;
@@ -1316,12 +1344,6 @@ h2.bac-heading-us{
   background: #111;
   padding: 0 !important;
   position: relative; }
-  @media screen and (max-width: 1045px) {
-    #contactate{
-      width: 100% !important;
-    }
-    #contact-img{
-      display: none; } }
 .bac-bg-color .bac-side{
   padding: 3em 20px 0 20px !important; }
 .bac-bg-color .bac-side h2{
@@ -1751,7 +1773,7 @@ li.css a {
   border-radius: 0; }
 @media screen and (max-width: 800px){
   .bac-narrow-content{
-    padding: 0 1em; }
+    padding: 0 2em; }
   .projects-img img{
     height: 50vh; }
   .projects-img-2{
