@@ -978,8 +978,8 @@ h2.bac-heading-us{
     bottom: 40px;
     left: 30px;
     transform: translate(0); }
-    .projects-entry .centered p{
-      margin-top: 0px !important;}
+  .up{
+    letter-spacing: 0px; }
   .line::after{
     height: 70px; } }
 
