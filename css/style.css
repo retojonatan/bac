@@ -974,14 +974,16 @@ h2.bac-heading-us{
   margin-top: 5px; }
 @media screen and (max-width: 768px) {
   .projects-entry .centered{
-    font-size: 1.5em;
+    font-size: 1em;
     bottom: 40px;
-    left: 30px;
+    left: 25px;
     transform: translate(0); }
+    .projects-entry .centered p{
+    margin: 0 !important;}
   .up{
     letter-spacing: 0px; }
   .line::after{
-    height: 70px;
+    height: 40px;
     border-bottom: 8px solid; } }
 
 .projects-entry a{
