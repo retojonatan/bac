@@ -972,12 +972,11 @@ h2.bac-heading-us{
   width: 130px;
   border-bottom: 10px solid;
   margin-top: 5px; }
-
 @media screen and (max-width: 768px) {
   .projects-entry .centered{
-    font-size: 22px;
-    top: 60%;
-    left: 5%;
+    font-size: 1.5em;
+    bottom: 40px;
+    left: 30px;
     transform: translate(0); }
     .projects-entry .centered p{
       margin-top: 0px !important;}
