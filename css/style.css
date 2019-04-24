@@ -90,7 +90,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1280px) {
     #bac-aside {
       width: 20%; } }
   @media screen and (max-width: 768px) {
@@ -124,22 +124,22 @@ figure {
   #bac-aside .comunicate{
     margin-bottom: 20px; }
   #bac-aside .comunicate .telcom{
-    letter-spacing:0.5px;
+    letter-spacing: 0.3px;
     font-family: "brown-thin";
-    color:white;
-    width:55%;
-    min-width: 130px;
+    color: white;
+    width: 60%;
+    min-width: 135px;
     padding: 5px !important; }
     #bac-aside .comunicate .telcom:hover,
     #bac-aside .comunicate .mailcom:hover{
       background-color: #0386B2 !important; }
   #bac-aside .comunicate .mailcom{
-    letter-spacing:0.5px;
+    letter-spacing: 0;
     font-family: "brown-thin";
     margin-top: 10px;
     color: white;
-    width: 55%;
-    min-width: 130px;
+    width: 60%;
+    min-width: 135px;
     padding: 5px !important; }
   #bac-aside #bac-logo a {
     display: block;
@@ -288,7 +288,7 @@ figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1280px) {
     #bac-main {
       width: 80%; } }
   @media screen and (max-width: 768px) {
@@ -514,6 +514,13 @@ body.offcanvas {
     #bac-hero{
       margin-bottom: 1em; } }
 
+.bac-tour{
+  clear: both;
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
 .bac-about-us{
   padding: 3em 10vw; }
   @media screen and (max-width: 900px) {
@@ -638,12 +645,14 @@ h2.bac-heading-us{
     font-weight: 900;
     padding-top: 15px;
     padding-bottom: 10px; }
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 786px){
     .bac-about-us .about-desc li{
       padding-top: 10px;
       font-weight: 600;
       padding-bottom: 5px;
-      font-size: 1.3em;} }
+      font-size: 1.3em;}
+    h2.bac-heading-us{
+      font-size: 3em; } }
   .bac-about-us .about-desc li:before{
     background-color: orange;
     content: "";
@@ -906,6 +915,8 @@ h2.bac-heading-us{
   height: 100%;
   width: 100%;
   padding: 0; }
+  .bac-projects .row{
+    margin: 0; }
 .sideToSide{
   margin: 0 !important;
   padding: 0 !important; }
@@ -915,9 +926,9 @@ h2.bac-heading-us{
   @media screen and (max-width: 768px) {
     .bac-projects{
       margin-top: 66px; }
-    .qwe{
+    .s-first{
       height: 28vh !important; }
-    .asd{
+    .s-last{
       height: 26vh !important; }
     .switch{
       display: block; }
@@ -934,11 +945,11 @@ h2.bac-heading-us{
    line-height: 1;
    color: #FFFFFF;
    bottom: 50px;
-   left: 40px;}
+   left: 30px;}
    .projects-entry .centered p{
      margin-top: 1em;
      margin-bottom: 0; }
-   .projects-entry .centered .last{
+   .projects-entry .centered .p-last{
      margin-top: 0;
      margin-bottom: 0; }
 .up{
@@ -972,6 +983,16 @@ h2.bac-heading-us{
   width: 130px;
   border-bottom: 10px solid;
   margin-top: 5px; }
+@media screen and (max-width: 1160px) {
+  .projects-entry .centered {
+    left: 20px;
+    font-size: 20px; }
+    .projects-entry .centered p{
+      letter-spacing: 1px; }
+  .up{
+    letter-spacing: 1px; }
+  .line::after {
+    height: 75px; } }
 @media screen and (max-width: 768px) {
   .projects-entry .centered{
     font-size: 1em;
@@ -981,11 +1002,15 @@ h2.bac-heading-us{
     .projects-entry .centered p{
     margin: 0 !important;}
   .up{
-    letter-spacing: 0px; }
+    letter-spacing: 2px; }
   .line::after{
     height: 34px;
     width: 80px;
     border-bottom: 8px solid; } }
+@media screen and (min-width: 1400px) {
+  .projects-entry .centered {
+    font-size: 28px; } }
+
 
 .projects-entry a{
   filter: grayscale(100%);
@@ -1200,14 +1225,7 @@ h2.bac-heading-us{
   background-attachment: fixed;
   background-position: center center; }
 
-  @media screen and (max-width: 768px){
-  .bac-parallax1 {
-    background-size: 200% 100% !important;
-    background-repeat: no-repeat;
-  }
-  .bac-parallax {
-  background-size: auto;
-  background-repeat: no-repeat;}}
+
   .bac-parallax .overlay {
     z-index: 0;
     position: absolute;
@@ -1234,8 +1252,6 @@ h2.bac-heading-us{
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%; }
-  .bac-parallax .parallax-wrap {
-    border: 1px solid red !important; }
   .bac-parallax .bac-parallax {
     font-size: 40px;
     display: block;
@@ -1260,7 +1276,7 @@ h2.bac-heading-us{
   padding: 13em 0;
   background-size: cover;
   background-attachment: fixed;
-  background-position: bottom center; }
+  background-position: center center; }
   .bac-parallax1 .overlay {
     z-index: 0;
     position: absolute;
@@ -1287,8 +1303,6 @@ h2.bac-heading-us{
       -moz-border-radius: 10%;
       -ms-border-radius: 10%;
       border-radius: 10%; }
-  .bac-parallax1 .parallax-wrap {
-    border: 1px solid red !important; }
   .bac-parallax1 .bac-parallax {
     font-size: 40px;
     display: block;
@@ -1304,6 +1318,19 @@ h2.bac-heading-us{
     letter-spacing: 5px;
     margin-bottom: 2em;
     display: block; }
+
+  @media screen and (max-width: 768px){
+    .bac-parallax1 {
+      padding: 28px;
+      background-size: cover;
+      background-attachment: inherit;
+      background-repeat: no-repeat; }
+    .bac-parallax {
+      padding: 35px;
+      background-size: cover;
+      background-attachment: inherit;
+      background-repeat: no-repeat; } }
+
 
 .bac-lead {
   font-size: 18px;
@@ -1677,6 +1704,9 @@ h2.bac-heading-us{
 
 .js .animate-box {
   opacity: 1; }
+  @media screen and (max-width: 768px) {
+    .animate-box {
+      animation: none; } }
 
 #sticky_item {
   overflow: hidden;
@@ -1865,7 +1895,7 @@ svg {
   font-size: 1.2em; }
 @media screen and (max-width: 768px){
 .linked .project .desc .con{
-  top: 120px; }
+  top: 100px; }
 .linked .project .desc .con a i{
   border: none;
   font-size: 1em; }

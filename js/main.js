@@ -110,8 +110,6 @@
 			}
 		});
 
-
-
 	};
 
 	// Click outside of offcanvass
