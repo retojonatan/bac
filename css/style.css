@@ -645,7 +645,7 @@ h2.bac-heading-us{
     font-weight: 900;
     padding-top: 15px;
     padding-bottom: 10px; }
-  @media screen and (max-width: 786px){
+  @media screen and (max-width: 768px){
     .bac-about-us .about-desc li{
       padding-top: 10px;
       font-weight: 600;
@@ -1703,7 +1703,7 @@ h2.bac-heading-us{
   padding: 10px !important; }
 
 .js .animate-box {
-  opacity: 1; }
+  opacity: 0; }
   @media screen and (max-width: 768px) {
     .animate-box {
       animation: none; } }
