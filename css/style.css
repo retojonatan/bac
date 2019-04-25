@@ -213,6 +213,27 @@ figure {
           -ms-transform: scaleX(1);
           -o-transform: scaleX(1);
           transform: scaleX(1); }
+          #bac-aside #bac-main-menu ul li.bac-active a #bac-sub-menu {
+            text-decoration: none; }
+
+  #bac-sub-menu {
+    margin: 0 !important;
+    padding: 5px!important;
+    margin-top: -10px !important;}
+  #bac-sub-menu li {
+    margin: 0 !important; }
+  #bac-sub-menu li a{
+    text-transform: capitalize !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding-left: 5px !important;
+    letter-spacing: 0.8px !important;
+    font-size: 12px; }
+    #bac-sub-menu li a:hover{
+      color: white !important; }
+    #bac-sub-menu .bac-active a{
+      color: white !important; }
+
+
   #bac-aside .bac-footer {
     /* TODO organizar y ver tema footer */
     position: absolute;
@@ -273,7 +294,7 @@ figure {
         #bac-aside .bac-footer ul li a {
           color: rgba(136, 204, 241, 0.8);
           font-size: 20px;
-          letter-spacing: 12px;
+          letter-spacing: 15px;
           /* iconos de Menu */
           padding: 0; }
           #bac-aside .bac-footer ul li a:hover, #bac-aside .bac-footer ul li a:active, #bac-aside .bac-footer ul li a:focus {
@@ -524,7 +545,8 @@ body.offcanvas {
   padding: 3em 10vw; }
   @media screen and (max-width: 900px) {
     .bac-about-us{
-      padding: 3em 5vw; } }
+      margin-top: -1em;
+      padding: 2em 5vw; } }
 
 .about-img-2,
 .services-img {
@@ -1801,6 +1823,11 @@ h2.bac-heading{
   font-size: 1.2em;
   font-weight: 500; }
 
+#accordion a:after{
+  font-family: "icomoon" !important;
+}
+
+
 /* flex carousel */
 .flex-caption {
   width: 100%;
@@ -1854,6 +1881,7 @@ svg {
     height: 50px; } } */
 .linked{
   padding: 0em;
+  padding-top: 2em;
   margin: 0 !important; }
 
 
