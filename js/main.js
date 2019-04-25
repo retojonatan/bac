@@ -122,7 +122,6 @@
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-					document.getElementById("bac-mid").style.display = "none";
     			$('.js-bac-nav-toggle').removeClass('active');
 
 	    	}
@@ -144,25 +143,25 @@
 	var sliderMain = function() {
 
 	  	$('#bac-hero .flexslider').flexslider({
-			animation: "fade",
-			slideshowSpeed: 12000,
-			directionNav: true,
-			start: function(){
-				setTimeout(function(){
-					$('.slider-text').removeClass('animated fadeInRightBig');
-					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInRightBig');
-				}, 500);
-			},
-			before: function(){
-				setTimeout(function(){
-					$('.slider-text').removeClass('animated fadeInRightBig');
-					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInRightBig');
-				}, 500);
-			}
+				animation: "fade",
+				slideshowSpeed: 10000,
+				directionNav: true,
+				start: function(){
+					setTimeout(function(){
+						$('.slider-text').removeClass('animated fadeInUp');
+						$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+					}, 500);
+				},
+				before: function(){
+					setTimeout(function(){
+						$('.slider-text').removeClass('animated fadeInUp');
+						$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+					}, 500);
+				}
 
-	  	});
+		  	});
 
-	};
+		};
 
 
 	// Document on load.
@@ -177,26 +176,3 @@
 	});
 
 }());
-
-// Can also be used with $(document).ready()
-$(window).load(function(){
-  $('#f1').flexslider({
-		directionNav: true,
-		controlNav: true,
-    animation: "slide",
-    rtl: true,
-    start: function(slider){
-      $('body').removeClass('loading');
-    }
-  });
- $('#f2').flexslider({
-    animation: "slide",
-    animationLoop: false,
-    itemWidth: 210,
-    itemMargin: 5,
-    pausePlay: true,
-    mousewheel: true,
-    rtl: true,
-    asNavFor:'.flexslider'
-  });
-});

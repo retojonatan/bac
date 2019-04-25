@@ -1710,10 +1710,7 @@ h2.bac-heading-us{
   padding: 10px !important; }
 
 .js .animate-box {
-  opacity: 1; }
-  @media screen and (max-width: 768px) {
-    .animate-box {
-      animation: none; } }
+  opacity: 0; }
 
 #sticky_item {
   overflow: hidden;
@@ -1817,17 +1814,7 @@ h2.bac-heading{
   letter-spacing: 2px;
   line-height: 18px; }
 
-#f1 img{
-  height: 500px;
-  width: 100%; }
-  @media screen and (max-width: 700px){
-    #f1 img {
-      height: 270px; } }
-#f2 img{
-  height: 120px; }
-  @media screen and (max-width: 700px){
-    #f2{
-      display: none; } }
+
 li.css a {
   border-radius: 0; }
 @media screen and (max-width: 768px){
@@ -2030,12 +2017,4 @@ svg {
     left: auto;
     right: auto;
   }
-}
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1024px) {
-}
-@media screen and (min-width: 1200px) {
-}
-@media screen and (min-width: 1440px) {
 }
