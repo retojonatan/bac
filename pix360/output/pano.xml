@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node2" apprev="17227" appversion="6.0.1">
+  <panorama id="node2" hideabout="1">
+    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2048" levelingroll="0" levelbias="0.400" height="2048" levelingpitch="0">
+      <level preload="0" width="2048" predecode="0" height="2048"/>
+      <level preload="0" width="1024" predecode="0" height="1024"/>
+      <level preload="0" width="512" predecode="0" height="512"/>
+      <level preload="1" width="256" predecode="1" height="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="4" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" pan="360" tilt="90" scaletofit="1"/>
+    </view>
+    <userdata author="PIX Visuals" source="" longitude="" description="Tour Virtual" datetime="04/12/2018 11:14 a.m." info="" customnodeid="" comment="" latitude="" copyright="PIX Visuals" title="San Nicanor" tags="Renders"/>
+    <hotspots width="50" wordwrap="1" height="0">
+      <label backgroundcolor="0xffffff" width="50" textcolor="0x000000" border="1" borderradius="1" borderalpha="1" background="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" wordwrap="1" enabled="1" height="0"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" handcursor="1"/>
+      <hotspot skinid="ht_node" description="Entrada" id="Point01" url="{node3}" target="-171.0/-1.5/70.0" pan="-350.09" tilt="-1" title="Entrada"/>
+      <hotspot skinid="ht_node" description="Habitación" id="Point02" url="{node4}" target="179.3/-0.4/70.0" pan="-19.79" tilt="17.01" title="Habitación"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" type="crossdissolve" zoomout="0" enabled="1" zoomin="0"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0">
+      <clip nextcliptitle="360_San_Nicanor" nextclipstartview="0/0/70/4" nodeid="" animtitle="Animation01" cliptitle="360_San_Nicanor" animtype="0" transitiontype="0" length="360" nextclipnodeid="node2">
+        <keyframe transitiontime="0" property="0" value="0" valuestring="" time="0" type="0" additionaltrackid=""/>
+        <keyframe transitiontime="0" property="1" value="0" valuestring="" time="0" type="0" additionaltrackid=""/>
+        <keyframe transitiontime="0" property="2" value="70" valuestring="" time="0" type="0" additionaltrackid=""/>
+        <keyframe transitiontime="0" property="3" value="4" valuestring="" time="0" type="0" additionaltrackid=""/>
+        <keyframe bezierouttime="10360" transitiontime="0" bezieroutvalue="360" property="0" value="360" valuestring="" bezierinvalue="360" time="360" type="2" additionaltrackid="" bezierintime="252"/>
+        <keyframe bezierouttime="10360" transitiontime="0" bezieroutvalue="0" property="1" value="0" valuestring="" bezierinvalue="0" time="360" type="2" additionaltrackid="" bezierintime="252"/>
+        <keyframe bezierouttime="10360" transitiontime="0" bezieroutvalue="70" property="2" value="70" valuestring="" bezierinvalue="70" time="360" type="2" additionaltrackid="" bezierintime="252"/>
+      </clip>
+    </animation>
+    <control rubberband="0" sensitivity="8" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" lockedmouse="0" dblclickfullscreen="1" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextfullscreen="1" lockedwheel="0" hideabout="1" contextprojections="0"/>
+  </panorama>
+  <panorama id="node3" hideabout="1">
+    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2048" levelingroll="0" levelbias="0.400" height="2048" levelingpitch="0">
+      <level preload="0" width="2048" predecode="0" height="2048"/>
+      <level preload="0" width="1024" predecode="0" height="1024"/>
+      <level preload="0" width="512" predecode="0" height="512"/>
+      <level preload="1" width="256" predecode="1" height="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" pan="360" tilt="90" scaletofit="1"/>
+    </view>
+    <userdata author="" source="" longitude="" description="" datetime="07/12/2018 10:12 a.m." info="" customnodeid="" comment="" latitude="" copyright="" title="" tags="Renders"/>
+    <hotspots width="50" wordwrap="1" height="0">
+      <label backgroundcolor="0xffffff" width="50" textcolor="0x000000" border="1" borderradius="1" borderalpha="1" background="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" wordwrap="1" enabled="1" height="0"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" handcursor="1"/>
+      <hotspot skinid="ht_node" description="Living" id="Point01" url="{node2}" target="10.0/0.4/70.0" pan="-169.89" tilt="-9.58" title="Living"/>
+      <hotspot skinid="ht_node" description="Habitación" id="Point02" url="{node4}" target="87.5/-0.3/70.0" pan="-126.08" tilt="5.1" title="Habitación"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" type="crossdissolve" zoomout="0" enabled="1" zoomin="0"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" sensitivity="8" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" lockedmouse="0" dblclickfullscreen="1" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextfullscreen="1" lockedwheel="0" hideabout="1" contextprojections="0"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2048" levelingroll="0" levelbias="0.400" height="2048" levelingpitch="0">
+      <level preload="0" width="2048" predecode="0" height="2048"/>
+      <level preload="0" width="1024" predecode="0" height="1024"/>
+      <level preload="0" width="512" predecode="0" height="512"/>
+      <level preload="1" width="256" predecode="1" height="256"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" pan="360" tilt="90" scaletofit="1"/>
+    </view>
+    <userdata author="" source="" longitude="" description="" datetime="07/01/2019 02:52 p.m." info="" customnodeid="" comment="" latitude="" copyright="" title="" tags="Renders"/>
+    <hotspots width="50" wordwrap="1" height="0">
+      <label backgroundcolor="0xffffff" width="50" textcolor="0x000000" border="1" borderradius="1" borderalpha="1" background="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" wordwrap="1" enabled="1" height="0"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" handcursor="1"/>
+      <hotspot skinid="ht_node" description="Living" id="Point01" url="{node2}" target="0.0/0.0/70.0" pan="-173.65" tilt="-15.98" title="Living"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" zoomfov="20" blendtime="1" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" type="crossdissolve" zoomout="0" enabled="1" zoomin="0"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" sensitivity="8" lockedkeyboardzoom="0" simulatemass="1" invertwheel="0" lockedmouse="0" dblclickfullscreen="1" lockedkeyboard="0" speedwheel="1" invertcontrol="1" contextfullscreen="1" lockedwheel="0" hideabout="1" contextprojections="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="" source="" longitude="" description="" datetime="" info="" customnodeid="" comment="" latitude="" copyright="" title="" tags=""/>
+  </masternode>
+  <map tileformat="png" bgcolor="rgba(255, 255, 255, 0)" width="357" id="FloorPlan01" transparent="1" type="file" title="PIX" height="169" zoomlevels="1" floorplannorth="359.67"/>
+</tour>

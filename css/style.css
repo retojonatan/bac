@@ -1490,6 +1490,10 @@ h2.bac-heading-us{
     box-shadow: none !important;
     outline: none !important; }
 
+.btn-contact {
+  position: relative;
+  top: 50vh; }
+
 .btn-primary {
   background: #006587;
   color: #fff;
