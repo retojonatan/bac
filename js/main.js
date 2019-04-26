@@ -144,7 +144,7 @@
 
 	  	$('#bac-hero .flexslider').flexslider({
 				animation: "fade",
-				slideshowSpeed: 10000,
+				slideshowSpeed: 5000,
 				directionNav: true,
 				start: function(){
 					setTimeout(function(){

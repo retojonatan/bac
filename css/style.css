@@ -561,7 +561,11 @@ body.offcanvas {
   @media screen and (max-width: 960px) {
     .about-img-2{
       background-image: url(../images/team-bac.jpg); } }
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 768px) {
+    .about-img-2{
+      margin-top: 60px;
+      height: 50vh; } }
+  @media screen and (max-width: 580px) {
     .about-img-2{
       margin-top: 60px;
       height: 40vh; } }
@@ -662,7 +666,7 @@ h2.bac-heading-us{
     list-style: none;
     text-align: justify;
     font-family: "futura-lt", "Trebuchet MS", "overpass", sans-serif;
-    font-size: 1.6em;
+    font-size: 1.2em;
     font-weight: 900;
     padding-top: 15px;
     padding-bottom: 10px; }
@@ -670,8 +674,7 @@ h2.bac-heading-us{
     .bac-about-us .about-desc li{
       padding-top: 10px;
       font-weight: 600;
-      padding-bottom: 5px;
-      font-size: 1.3em;}
+      padding-bottom: 5px;}
     h2.bac-heading-us{
       font-size: 3em; } }
   .bac-about-us .about-desc li:before{
